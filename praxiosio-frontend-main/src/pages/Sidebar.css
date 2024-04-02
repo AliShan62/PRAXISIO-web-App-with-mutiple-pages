@@ -1,0 +1,324 @@
+body{
+  background-color: gray;
+
+}
+
+/* Search bar styling */
+.searchbar {
+  background-color: rgb(8, 2, 2);
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+   
+}
+
+.searchbar2 {
+  background-color: rgb(8, 2, 2);
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+.searchbar ul li a{
+  margin-left: -90px;;
+   
+}
+
+
+.search-container {
+  position: relative;
+  
+}
+
+.search-container input[type="text"] {
+  padding: 8px 50px 8px 8px; /* Add padding for the icon */
+  margin-bottom: 10px;
+  margin:3px;
+  
+}
+
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 45%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.add1{
+  width: 220px;
+  border: 1px solid white;
+  margin-top: 20px;
+  padding:5px;
+}
+.add2{
+  width: 220px;
+  border: 1px solid white;
+   padding:5px;
+   margin-top: 700px;
+   height: 450px;
+}
+
+.add3{
+  width: 220px;
+  border: 1px solid white;
+   padding:5px;
+   margin-top: 80px;
+   height: 450px;
+}
+
+.search-container2 {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+
+}
+
+.search-container2 input[type="text"] {
+  padding: 8px 30px 8px 8px; /* Add padding for the icon */
+  margin-bottom: 10px;
+  width: 80%;
+  border-radius: 20px;
+}
+
+
+
+.search-icon2 {
+  position: absolute;
+  right: 130px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.searchbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.searchbar ul li {
+  margin-bottom: 5px;
+
+}
+
+.searchbar ul li a {
+  text-decoration: none;
+ 
+}
+
+/* Links styling */
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+
+.links ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.links ul li {
+  
+  text-align: center;
+
+}
+
+.links ul li a {
+  color: rgb(254, 253, 253); /* Change the color of the links */
+  text-decoration: none; 
+  margin-left: 40px;
+}
+
+.links ul li:first-child {
+  text-align: left;
+  margin-left: auto;
+}
+
+.links ul li:last-child {
+  text-align: right;
+  margin-right: auto;
+}
+
+/* Common styling */
+section {
+  /* background-color: rgb(255, 252, 252); */
+  color: white;
+  width: 100%;
+  display: flex;
+  /* margin: 70px; */
+  border: 2px solid rgb(254, 251, 251);
+  justify-content: center;
+  padding: 0em;
+  overflow-x: hidden;
+}
+
+article {
+  background-color: rgb(4, 3, 4);
+  color: white;
+  margin: 0px 0px 0px 2px;
+  margin-bottom: 0px;
+  height: max-content;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; /* Center the card */
+  text-align: center;
+}
+
+
+.main-box{
+  width: 90%;
+  height: 200px;
+  border: 1px solid  rgb(249, 249, 251);
+  margin: 20px;
+}
+
+.div1{
+  background:  rgba(43, 11, 156, 0.2); 
+  color:white;
+  width: 90%;
+  height: 350px;
+  border: 1px solid white;
+  margin-top: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#btn-icon i {
+  padding: 0.1rem 1rem 0.1rem 0.2rem;
+  background: #e1e1e1;
+  color:black;
+  border-radius: 50%;
+}
+
+#btn-icon i:hover {
+  background:black;
+  color:white;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.cardg {
+ background:  rgba(43, 11, 156, 0.2); 
+  color:white;
+  width: 90%;
+  height: 350px;
+  border: 2px solid rgb(43, 11, 156);
+  margin-top: 10px;
+  border-radius: 10px;
+ 
+}
+
+.card2 {
+ background: rgb(3, 1, 1); 
+  color:rgb(254, 253, 253);
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 2px;
+  margin-bottom: 20px ;
+}
+
+
+.card3 {
+  background: rgba(4, 53, 23, 0.5);
+  color:white;
+  width: 90%;
+  height: 300px;
+  border: 2px solid rgba(7, 139, 58, 0.5);
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card4 {
+  background: rgba(53, 21, 4, 0.5);
+  color:white;
+  width: 90%;
+  border: 1px solid rgba(209, 73, 10, 0.5);
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+ 
+}
+
+
+.ads {
+  color: white;
+  width: 860px;
+  height: 200px;
+  border: 2px solid white;
+  margin:20px ;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center;
+}
+
+
+.info {
+  margin-bottom: 0px;
+  justify-content: start;
+  align-self: flex-start;
+  text-align: start;
+  padding-left:55px;
+}
+
+.react {
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  padding: 10px;
+}
+.plus {
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  margin: 5px 0px 0px 5px;
+}
+
+.inner{
+  display: flex;
+  justify-content: flex-start;
+  text-align: justify;
+}
+.inner h5{
+  margin-top: 80px;
+  margin-left: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  border:1px solid rgba(7, 139, 58, 0.5) ;
+  
+}
+.col-sm img{
+ width:40px;
+ border: 1px solid white;
+ background-color: white;
+ color: white;
+ border-radius: 10%;
+ cursor: pointer;
+ margin-bottom: 10px;
+}
+.loading img{
+  width: 50px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  
+}
+.Result{
+  text-align: left;
+}

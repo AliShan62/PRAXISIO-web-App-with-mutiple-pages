@@ -1,0 +1,104 @@
+
+.chemicals {
+    color: rgba(4, 53, 23, 0.5);
+    background: white;
+    width: 90%;
+    height: 550px;
+    border: 2px solid rgba(7, 139, 58, 0.5);
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.plus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding-right: 10px;
+    margin: 5px 0px 0px 5px;
+  }
+  .plus button{
+    background: #000;
+    border: 1px solid rgb(254, 253, 253);
+    border-radius: 10px;
+    color: rgb(254, 253, 253);
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+  }
+  .plus p{
+    margin: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .plus img{
+    width:250px;
+    margin-top: -40px;
+    height: 150px;
+    padding-right: 10px;
+  
+  }
+  .qunatity {
+    margin: 20px;
+    
+  }
+  .qunatity input{
+    width: 30px;
+    
+  }
+  
+  p{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #heat {
+    background: #000;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #heat input{
+    width: 30px;
+  }
+  .inner{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  .inner h5{
+    margin-top: 80px;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border:1px solid black;
+    cursor:pointer;
+    
+  }
+
+  .large{
+    color: white;
+    width:850px;
+    height: 200px;
+    border: 2px solid white;
+    margin:20px ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+  }
+
+  .links ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding-top: 10px;
+  }

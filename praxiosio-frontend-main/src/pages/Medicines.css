@@ -1,0 +1,68 @@
+
+
+.Madd{
+    width: 220px;
+    border: 1px solid white;
+     padding:5px;
+     margin-top: 200px;
+     height: 450px;
+  }
+
+
+  .links ul li:first-child {
+    text-align: center;
+    padding-left: 100px;
+   
+  }
+
+.lineAndInsideMediclasDesk{
+ margin-top: 30px;
+}
+.lineAndInsideMediclasDesk>p{
+   text-align: left;
+   padding-left: 100px;
+  font-size: large;
+}
+
+.InsideMediclasDesk{
+    width: 80%;
+    height: 150px;
+    border: 1px solid green;
+    border-radius: 10px;
+    margin-left: 100px;
+     
+}
+
+.plus{
+    margin-top: 15px;
+}
+
+.lineAndInsideMediclasDesk button{
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+.Mcard3 {
+    background: rgba(4, 53, 23, 0.5);
+    color:white;
+    width: 90%;
+    height: 350px;
+    border: 2px solid rgba(7, 139, 58, 0.5);
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .ads {
+    color: white;
+    width: 860px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin:20px ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+  }
